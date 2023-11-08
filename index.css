@@ -1,0 +1,274 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+header
+{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    background-color: black;
+    
+}
+.nav-bar ul
+{
+    display: flex;
+    justify-content:space-around;
+    font-size: 20px;
+    align-items: center;
+    list-style: none;
+}
+.nav-bar ul a
+{
+    margin-left: 6px;  
+    text-decoration: none;
+    font-size: 15px;
+    align-items: center;
+    color: aliceblue;
+    padding: 7px;
+    padding-right: 18px;
+}
+.nav-bar a:hover
+{
+    background-color: rgb(128, 128, 128,0.5);
+    border-radius: 3px;
+}
+body
+{
+    overflow: hidden;
+    background-image: url("images lsc/logo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-y: scroll;
+}
+body::-webkit-scrollbar-thumb
+{
+    background-color: aquamarine;
+}
+.contain
+{
+    height: 100vh;
+    border: 1px sloid black;
+    color: aliceblue;
+    background-color: rgba(0,0,0,0.5);
+}
+.contain h1
+{
+    color: aliceblue;
+    text-align: center;
+    position: relative;
+    align-items: center;
+    font-size: 55px;
+    top:30%;
+}
+.contain a
+{
+    text-decoration: none;
+    font-size: 25px;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    top: 40%;
+    background-color: cadetblue;
+    color: aliceblue;
+    padding: 10px;
+    left: 43%;
+    border-radius: 10px;
+}
+.contain a:hover
+{
+    background-color: rgba(95, 158, 160,0.8);
+}
+span
+{
+    color:lightseagreen;
+    font-size: 65px;
+}
+.container1
+{
+    background-color: black;
+    height: 317vh;
+    z-index: 2;
+}
+.container
+{
+    background-color: black;
+    height: 130vh;
+    display: flex;
+    z-index: 2;
+}
+.text
+{
+    width: 40%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: relative;
+    top: 10%;
+    justify-content: space-around;
+    left: 3%;
+    color: aliceblue;
+}
+.text h1
+{
+    text-align: center;
+}
+.img
+{
+    width: 40%;
+    position: relative;
+    top: -30%;
+    height: 100vh;
+    left: -20%;
+}
+#orlando
+{
+    width: 300%;
+    height: 150vh;
+}
+.ligne
+{
+    width: 50%;
+    height: 3px;
+    background-color: aliceblue;
+    position: relative;
+    left: 25%;
+}
+.text2
+{
+    color: aliceblue;
+}
+.text2 h1
+{
+    text-align: center;
+    font-size: 45px;
+}
+.text2 p
+{
+    text-align: center;
+    font-size: 25px;
+    width: 50%;
+    align-items: center;
+    position: relative;
+    left: 24%;
+}
+.slider-1
+{
+    width: 150vh;
+    height: 50vh;
+    position: relative;
+    top: 1%;
+    left: 10%;
+    overflow: hidden;
+    background-color: aliceblue;
+}
+.slider-1 .slider
+{
+    display: flex;
+    animation: slider-1 12s infinite ease-in-out;
+}
+.slide-img
+{
+    width: 1000vh;
+    height: 50vh;
+}
+.container3
+{
+    color: aliceblue;
+    position: relative;
+    top: 4%;
+}
+#ligne2
+{
+    width: 50%;
+    height: 3px;
+    background-color: aliceblue;
+    position: relative;
+    left: 2%;
+}
+.liens
+{
+    width: 70%;
+    height: 50vh;
+    margin-top: 30px;
+}
+.liens ul
+{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+.liens ul li img
+{
+    width: 50px;
+    height: 50px;
+}
+.liens ul li img:hover
+{
+    width: 60px;
+    height: 60px;
+}
+.ligne3
+{
+    background-color: green;
+    width: 90%;
+    height: 2px;
+    position: relative;
+    left: 5%
+}
+.logo_fin
+{
+    width: 40%;
+    height: 30vh;
+}
+.logo_fin img
+{
+    width: 50%;
+    height: 32vh; 
+    position: relative;
+    left: 30%;
+}
+.foot
+{
+    color: white;
+    display: flex;
+}
+.text_fin
+{
+    position: relative;
+    top: 80%;
+    left: 20%;
+}
+.text_fin p
+{
+    text-align: center;
+    position: relative;
+    top: 50%;
+}
+@keyframes slider-1
+{
+    0%,
+    20%{
+        transform: translate(0%);
+    }
+    25%,
+    45%{
+        transform: translate(-100%);
+    }
+    50%,
+    70%{
+        transform: translate(-200%);
+    }
+    75%,
+    95%{
+        transform: translate(-300%);
+    }
+    100%{
+        transform: translate(-400%);
+    }
+
+}
