@@ -41,7 +41,7 @@ header
 body
 {
     overflow: hidden;
-    background-image: url("images lsc/logo.png");
+    background-image: url("logo.png");
     background-repeat: no-repeat;
     background-size: cover;
     overflow-y: scroll;
